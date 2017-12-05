@@ -1,0 +1,16 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+.receive {
+    background: transparent;
+    margin-top: 58px;
+    border: 1px solid gray;
+    padding: 5px 15px 5px 15px;
+    border-radius: 5px;
+}
+
+.text {
+    font-size: 12px;
+    margin: 5px 16px 5px 16px;
+}

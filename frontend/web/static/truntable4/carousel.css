@@ -1,0 +1,58 @@
+.carousel
+{
+	position:relative;
+	margin:0px;
+	padding:0px;
+	-moz-user-select:none;
+	-webkit-user-select:none;
+}
+
+
+.carousel .carousel-item
+{
+
+	position:absolute;
+	cursor:pointer;
+}
+
+
+
+
+
+
+
+.carousel .click
+{
+
+}
+
+
+
+
+.carousel .tooltip
+{
+	position:absolute;
+	z-index:9999;
+	background-color:#DDD;
+	margin-bottom:20px;
+
+
+}
+
+
+.carousel .tooltip p
+{
+	color:#999;
+	padding:10px;
+	margin:0px;
+}
+
+
+.carousel .scrollbar
+{
+	width:340px;
+	position:absolute;
+	margin-top:100px;
+	
+}
+

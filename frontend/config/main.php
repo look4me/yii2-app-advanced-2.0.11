@@ -13,6 +13,7 @@ return [
     'controllerNamespace' => 'frontend\controllers',
     'components' => [
         'request' => [
+            'enableCsrfValidation' => false,
             'csrfParam' => '_csrf-frontend',
             'class' => 'common\components\Request',
             'web' => '/frontend/web'
@@ -43,6 +44,14 @@ return [
             'enablePrettyUrl' => true,
             'showScriptName' => false,
             'rules' => [
+            ],
+        ],
+        'assetManager' => [
+            'bundles' => [
+                'yii\web\JqueryAsset' => [
+                    'js' => [],  // 去除 jquery.js
+                    'sourcePath' => null,  // 防止在 frontend/web/asset 下生产文件
+                ],
             ],
         ],
 
